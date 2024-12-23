@@ -7,13 +7,24 @@ const cardsContainer = document.getElementById('cards-container');
 let myLibrary = JSON.parse(localStorage.getItem('Books')) || [];
 
 // object constructor that helps the creation of new books
-function Book(author, title, pages, start, finish, status) {
-  this.title = title,
-  this.author = author,
-  this.pages = pages,
-  this.start = start,
-  this.finish = finish,
-  this.status = status
+// function Book(author, title, pages, start, finish, status) {
+//   this.title = title,
+//   this.author = author,
+//   this.pages = pages,
+//   this.start = start,
+//   this.finish = finish,
+//   this.status = status
+// }
+
+class Book {
+  constructor(author, title, pages, start, finish, status) {
+    this.title = title,
+    this.author = author,
+    this.pages = pages,
+    this.start = start,
+    this.finish = finish,
+    this.status = status
+  }
 }
 
 // reformats the dates accordingly
