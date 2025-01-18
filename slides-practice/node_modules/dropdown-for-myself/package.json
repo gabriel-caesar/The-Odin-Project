@@ -1,0 +1,22 @@
+{
+  "name": "dropdown-for-myself",
+  "version": "1.0.0",
+  "description": "It helps you with displaying dropdown containers with just a function call and two parameters.",
+  "main": "script.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriel-caesar/dropdown-npm.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriel-caesar/dropdown-npm/issues"
+  },
+  "homepage": "https://github.com/gabriel-caesar/dropdown-npm#readme"
+}
