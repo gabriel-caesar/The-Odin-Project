@@ -38,3 +38,5 @@ node_modules/
 dist/
 build/
 .cache/
+dropdown-practice/
+to-do-list/
