@@ -11,7 +11,6 @@ Thumbs.db
 
 #IGNORE ALL .ttf FONT FILES & IMG
 *.ttf
-*.png
 *.jpg
 *.jpeg
 *.gif
@@ -35,7 +34,6 @@ dn
 OneDrive/**
 !/OneDrive/Desktop/CODE/*
 node_modules/
-dist/
 build/
 .cache/
 dropdown-practice/

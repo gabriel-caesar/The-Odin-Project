@@ -113,7 +113,6 @@ function analizeArray(array) {
     'length': array.length
   }
 };
-const array = [1,8,3,4,2,6];
-console.log(analizeArray(array));
+
 
 module.exports = { capitalize, reverseString, calculator, caesarCypher, analizeArray };
