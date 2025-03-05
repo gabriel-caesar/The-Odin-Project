@@ -3,6 +3,7 @@ import { Player, Computer } from '../src/Player';
 import { Gameboard } from '../src/gameboard';
 import './styles.css';
 import './board-coordinates.css';
+import './mobile.css'
 import { randomizePositions, zeroTo } from './positionLogic';
 
 // getting the boards
