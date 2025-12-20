@@ -25,6 +25,7 @@ Thumbs.db
 *.ps1
 *.ts
 *.map
+*.env
 
 #IGNORE DN
 dn
