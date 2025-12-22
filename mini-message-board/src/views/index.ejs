@@ -9,13 +9,13 @@
       <div class='card text-bg-dark mb-3' style='max-width: 18rem'>
         <div class='card-body'>
           <h5 class='card-title'>
-            <%= message.user %>
+            <%= message.username %>
           </h5>
           <p class='card-text' style='max-height: 200px; overflow-y: auto;'>
-            <%= message.text %>
+            <%= message.content %>
           </p>
           <p class='card-text text-info'>
-            Sent on <%= message.added %>
+            <%= message.added ? `Sent on ${message.added.toLocaleString()}` : 'Not provided'  %>
           </p>
           <a href='/new/<%= message.id %>' class='btn btn-primary w-100'>Open</a>
         </div>

@@ -20,9 +20,9 @@
     </h1>
 
     <div id='message-details-container' class='card-body bg-secondary rounded-2 shadow-lg my-4' style='max-width:300px'>
-      <p class='card-text'>User: <%= message.user %></p>
-      <p class='card-text' style='max-height: 200px; overflow-y: auto;'>Content: <%= message.text %></p>
-      <p class='card-text'>Sent on: <%= message.added.toLocaleString() %></p>
+      <p class='card-text'>User: <%= message.username %></p>
+      <p class='card-text' style='max-height: 200px; overflow-y: auto;'>Content: <%= message.content %></p>
+      <p class='card-text'>Sent on: <%= message.added %></p>
     </div>
 
     <div id='buttons-container' class='d-flex flex-column my-2 w-100 p-2'>
@@ -31,6 +31,7 @@
         id='delete-message-button'
         aria-label='delete-message-button'
         class='btn btn-danger text-light w-100'
+        onclick='return confirm("Are you sure to delete this message?")'
       >
         Delete
       </button>
